@@ -54,7 +54,7 @@ jobs:
       # Шаг 6: Загружаем отчет (опционально)
       - name: Upload test results
         if: always()  # выполняем даже при ошибке
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: test-results-${{ matrix.os }}-${{ matrix.python-version }}
           path: |
