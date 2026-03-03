@@ -100,3 +100,4 @@ def test_delete_post():
 # Запуск всех тестов
 if __name__ == "__main__":
     pytest.main(["-v", __file__])
+    
